@@ -33,6 +33,7 @@
 *.css linguist-documentation=false
 *.css linguist-language=CSS
 # REXX source file
+# Do not include, it is not the target language
 *.rex linguist-detectable=false
 *.rex linguist-documentation=false
 *.rex linguist-language=REXX
@@ -43,6 +44,8 @@
 *.nrx linguist-detectable=true
 *.nrx linguist-documentation=false
 *.nrx linguist-language=NetREXX
+# Backup overriding option, as GitHub likely won't recognize this language
+*.nrx linguist-language=REXX
 # JSON (JavaScript Object Notation) source file
 *.json linguist-detectable=false
 *.json linguist-documentation=false
@@ -168,10 +171,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 6 (2022, Sunday, September 18th at 4:48 pm PST)
-# Line count (including blank lines and compiler line): 178
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 7 (2025, Saturday, January 4th at 11:40 am PST)
+# Line count (including blank lines and compiler line): 184
+
 # End of script
